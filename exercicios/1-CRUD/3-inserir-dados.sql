@@ -1,4 +1,12 @@
--- Insira 3 classes salariais na tabela salario_classe
+-- Insira algumas classes salariais na tabela salario_classe
+INSERT INTO salario_classe (
+nivel, salario)
 
-
--- Insira 1 nova classe salarial, sem declarar o atributo id_salario
+VALUES
+(3500, 'estagiário'),
+(4700, 'júnior - nível 1'),
+(5300, 'júnior - nível 2'),
+(6100, 'pleno'),
+(7500, 'sênior'),
+(8600, 'gerente'),
+(10700, 'coordenador de área');
